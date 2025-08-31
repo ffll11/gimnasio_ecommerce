@@ -1,7 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Management;
 
+use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class UsuarioController extends Controller
@@ -11,7 +13,10 @@ class UsuarioController extends Controller
      */
     public function index()
     {
-        //
+        //Cargamos los datos del usuario
+        $user = User::all();
+
+        return view('management.usuario.index', compact('user'));
     }
 
     /**

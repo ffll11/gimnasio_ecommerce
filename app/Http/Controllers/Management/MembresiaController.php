@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Management;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class PagoController extends Controller
+class MembresiaController extends Controller
 {
     /**
      * Display a listing of the resource.

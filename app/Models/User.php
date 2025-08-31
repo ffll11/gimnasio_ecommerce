@@ -27,6 +27,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'persona_id'
     ];
 
     /**
@@ -58,4 +59,10 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    //Relacion uno a uno con Persona
+    public function persona()
+    {
+        return $this->belongsTo(Personas::class);
+    }
 }
