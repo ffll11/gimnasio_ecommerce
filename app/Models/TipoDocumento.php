@@ -9,7 +9,7 @@ class TipoDocumento extends Model
 {
     use HasFactory;
 
-    protected $table = 'tipo_documentos';
+    protected $table = 'tipos_documento';
 
     protected $fillable = [
         'nombre',
@@ -18,6 +18,6 @@ class TipoDocumento extends Model
 
     public function personas()
     {
-        return $this->hasMany(Personas::class);
+        return $this->hasMany(Persona::class);
     }
 }

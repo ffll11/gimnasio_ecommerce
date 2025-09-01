@@ -63,6 +63,6 @@ class User extends Authenticatable
     //Relacion uno a uno con Persona
     public function persona()
     {
-        return $this->belongsTo(Personas::class);
+        return $this->belongsTo(Persona::class);
     }
 }

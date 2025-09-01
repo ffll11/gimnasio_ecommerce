@@ -3,13 +3,13 @@
     # Hacemos un diccionario de rutas para el sidebar
     $titles = [
         ['name' => 'Dashboard', 'route' => route('dashboard'), 'icon' => 'fa-solid fa-chart-area'],
-        ['name' => 'Asistencias', 'route' => route('management.asistencia.index'), 'icon' => 'fa-solid fa-check'],
-        ['name' => 'Clases', 'route' => route('management.clase.index'), 'icon' => 'fa-solid fa-chalkboard-teacher'],
-        ['name' => 'Membresias', 'route' => route('management.membresia.index'), 'icon' => 'fa-solid fa-users'],
-        ['name' => 'Pagos', 'route' => route('management.pago.index'), 'icon' => 'fa-solid fa-credit-card'],
-        ['name' => 'Reportes', 'route' => route('management.reporte.index'), 'icon' => 'fa-solid fa-file-alt'],
+        ['name' => 'Asistencia', 'route' => route('management.asistencia.index'), 'icon' => 'fa-solid fa-check'],
+        ['name' => 'Clase', 'route' => route('management.clase.index'), 'icon' => 'fa-solid fa-chalkboard-teacher'],
+        ['name' => 'Membresia', 'route' => route('management.membresia.index'), 'icon' => 'fa-solid fa-users'],
+        ['name' => 'Pago', 'route' => route('management.pago.index'), 'icon' => 'fa-solid fa-credit-card'],
+        ['name' => 'Reporte', 'route' => route('management.reporte.index'), 'icon' => 'fa-solid fa-file-alt'],
         ['name' => 'Staff', 'route' => route('management.staff.index'), 'icon' => 'fa-solid fa-user-tie'],
-        ['name' => 'Usuarios', 'route' => route('management.usuario.index'), 'icon' => 'fa-solid fa-users'],
+        ['name' => 'Usuario', 'route' => route('management.usuario.index'), 'icon' => 'fa-solid fa-users'],
         ['name' => 'Sign In', 'route' => route('login'), 'icon' => 'fa-solid fa-sign-in'],
         ['name' => 'Sign Up', 'route' => route('register'), 'icon' => 'fa-solid fa-sign-up'],
     ];

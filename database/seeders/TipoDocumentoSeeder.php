@@ -2,18 +2,18 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class UserSeeder extends Seeder
+class TipoDocumentoSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        //Connect the UserFactory to the UserSeeder
-        User::factory(50)->create();
+        //
+    \App\Models\TipoDocumento::factory()->count(5)->create();
     }
+
 }
